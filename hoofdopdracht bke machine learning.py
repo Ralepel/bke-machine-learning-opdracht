@@ -9,3 +9,5 @@ class MyAgent(MLAgent):
         else:
             reward = 0
         return reward
+    
+my_agent = MyAgent(alpha=0.8, epsilon=0.2) 
