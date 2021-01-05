@@ -16,4 +16,4 @@ my_agent = MyAgent()
 
 train(my_agent, 3000)
 
-
+my_agent.learning = False
