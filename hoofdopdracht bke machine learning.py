@@ -10,4 +10,10 @@ class MyAgent(MLAgent):
             reward = 0
         return reward
     
-my_agent = MyAgent(alpha=0.8, epsilon=0.2) 
+my_agent = MyAgent(alpha=0.8, epsilon=0.2)
+
+my_agent = MyAgent()
+
+train(my_agent, 3000)
+
+
